@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "age": 41.0,
+      "first_name": "Alice",
+      "domain": "example.com",
+      "last_name": "Smith"
+    },
+    {
+      "age": 32.0,
+      "first_name": "Bob",
+      "domain": "test.com",
+      "last_name": "Jones"
+    },
+    {
+      "age": 25.0,
+      "first_name": "Charlie",
+      "domain": "company.com",
+      "last_name": "Williams"
+    },
+    {
+      "age": 58.0,
+      "first_name": "David",
+      "domain": "example.com",
+      "last_name": "Brown"
+    },
+    {
+      "age": 29.0,
+      "first_name": "Emily",
+      "domain": "test.com",
+      "last_name": "Davis"
+    }
+  ]
+}
