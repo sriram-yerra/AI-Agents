@@ -33,11 +33,11 @@ TOOLS = [
 # GEMINI LLM
 # -------------------------
 llm = ChatVertexAI(
-model_name=os.getenv("GEMINI_MODEL"),
-project=os.getenv("GOOGLE_CLOUD_PROJECT"),
-location=os.getenv("GOOGLE_CLOUD_REGION"),
-temperature=float(os.getenv("TEMPERATURE")),
-max_output_tokens=int(os.getenv("MAX_OUTPUT_TOKENS")),
+    model_name=os.getenv("GEMINI_MODEL"),
+    project=os.getenv("GOOGLE_CLOUD_PROJECT"),
+    location=os.getenv("GOOGLE_CLOUD_REGION"),
+    temperature=float(os.getenv("TEMPERATURE")),
+    max_output_tokens=int(os.getenv("MAX_OUTPUT_TOKENS")),
 )
 
 # -------------------------
